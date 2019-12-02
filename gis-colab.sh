@@ -13,6 +13,4 @@ bash ./Miniconda3-4.5.4-Linux-x86_64.sh -b -f -p /usr/local
 
 # install geospatial packages
 
-conda install -y --prefix /usr/local geopandas
-
-conda install -y --prefix /usr/local -c conda-forge  rasterstats
+conda install -y --prefix /usr/local -c conda-forge  geopandas rasterstats
