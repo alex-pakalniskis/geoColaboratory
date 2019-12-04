@@ -13,5 +13,5 @@ wget ftp://ftp.chg.ucsb.edu/pub/org/chg/products/CHIRPS-2.0/global_monthly/tifs/
 gunzip *.tif.gz
 
 # Inform user of download completion
-echo "Download complete"
+echo "Download complete, data in ~/chirps/"
 
