@@ -1,3 +1,4 @@
+#!/bin/bash
 # Download data
 echo "Downloading monthly, global CHIRPS data"
 
