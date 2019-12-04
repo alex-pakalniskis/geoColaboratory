@@ -10,4 +10,4 @@ cd chirts
 wget ftp://ftp.chg.ucsb.edu/pub/org/chg/products/Tmax_monthly/CHIRTSmax.CDR/CHIRTSmax.*.*.tif
 
 # Inform user of download completion
-echo "Download complete"
+echo "Download complete, data in ~/chirts/"
