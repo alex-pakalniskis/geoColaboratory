@@ -27,5 +27,11 @@ pip install git+git://github.com/perrygeo/python-rasterstats.git
 # Install rasterstats requirements
 pip install -r https://raw.githubusercontent.com/perrygeo/python-rasterstats/master/requirements.txt
 
+# Install folium
+pip install git+git://github.com/python-visualization/folium.git
+
+# Install folium requirements
+pip install -r https://raw.githubusercontent.com/python-visualization/folium/master/requirements.txt
+
 # Process complete
 echo "Your GIS workstation is ready!"
