@@ -33,5 +33,8 @@ pip install git+git://github.com/python-visualization/folium.git
 # Install folium requirements
 pip install -r https://raw.githubusercontent.com/python-visualization/folium/master/requirements.txt
 
+# A CLI utility to download public data from Google Drive without OAuth 
+pip install gdown
+
 # Process complete
 echo "Your GIS workstation is ready!"
