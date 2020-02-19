@@ -21,14 +21,8 @@ pip install -r https://raw.githubusercontent.com/geopandas/geopandas/master/requ
 # Install descartes - an additional Geopandas requirement for Colaboratory
 pip install descartes
 
-# Install rasterstats
-pip install git+git://github.com/perrygeo/python-rasterstats.git
-
-# Install rasterstats requirements
-pip install -r https://raw.githubusercontent.com/perrygeo/python-rasterstats/master/requirements.txt
-
-# A CLI utility to download public data from Google Drive without OAuth 
-pip install gdown
+# Install partridge for GTFS data handling with Geopandas support
+pip install partridge[full]
 
 # Process complete
 echo "Your GIS workstation is ready!"
