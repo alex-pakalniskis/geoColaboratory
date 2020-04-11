@@ -3,8 +3,8 @@
 echo "Installing GIS libraries"
 
 # Update Linux machine
-apt update
-apt upgrade
+#apt update
+#apt upgrade
 
 # Install GDAL: Geospatial Data Abstraction Library and Python bindings (its a C library)
 apt install gdal-bin python-gdal python3-gdal
@@ -22,7 +22,7 @@ pip install -r https://raw.githubusercontent.com/geopandas/geopandas/master/requ
 pip install descartes
 
 # Install partridge for GTFS data handling with Geopandas support
-pip install partridge[full]
+#pip install partridge[full]
 
 # Process complete
 echo "Your GIS workstation is ready!"
